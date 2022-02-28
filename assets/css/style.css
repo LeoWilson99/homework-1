@@ -1,13 +1,14 @@
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Sets background color to grey*/
 body {
     background-color: #d9dcd6;
 }
-
+/*Sets font of header and nav bar*/
 .navBar {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*sets position of first main image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -86,6 +87,8 @@ p {
     background-color: #2589bd;
 }
 
+/*Right hand side blocks*/
+
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -115,6 +118,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+/* Images on right hand side block */
 
 .benefit-lead img {
     display: block;
@@ -133,7 +137,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* First blue block left hand side */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +147,7 @@ p {
     color: #ffffff;
 }
 
+/* Second Blue block left hand side*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +156,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Third Blue Block left hand side */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,6 +165,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/*Images on blocks left hand side */
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -173,6 +179,7 @@ p {
     max-height: 200px;
 }
 
+/*Text on block left hand side*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,7 +194,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Changes footer font, padding, alignment and font size*/
 .footer {
     padding: 30px;
     clear: both;
